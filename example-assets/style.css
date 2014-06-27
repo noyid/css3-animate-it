@@ -21,7 +21,18 @@ header.mainHeader{
 	background-position:static;
 
 }
-
+.findMe{
+	color:#fff;
+	margin-top:20px;
+}
+.findMe a{
+	color:#fff;
+	text-decoration: underline;
+}
+.findMe a:hover{
+	color:#ccc;
+	text-decoration: none;
+}
 .mainHeader .container{
 	position:relative;
 	top:50%;
