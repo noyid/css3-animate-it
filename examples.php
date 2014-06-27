@@ -14,7 +14,7 @@
 				<div class='animatedParent' data-sequence='500' >
 					<h1 class='animated growIn slower'  data-id='1'>CSS3 Animate-it</h1>
 					<h2 class='animated bounceInRight slower'  data-id='2'>Because static content is boring!</h2>
-					<div class='buttons-inline animated bounceInLeft slower'   data-id='3'><a class="btn btn-primary" href="examples.php">See Animation List</a></div>
+					<div class='buttons-inline animated bounceInLeft slower'   data-id='3'><a class="btn btn-primary" href="index.php">See Functions</a></div>
 					<div class='buttons-inline animated bounceInRight slower' data-id='4'><a class='btn btn-default' href='https://github.com/Jack-McCourt/css3-animate-it/archive/master.zip'>Download!</a></div>
 					<div class='animated bounceInUp findMe' data-id='5'>Find me at <a  target="_blank" href='http://jackonthe.net'>jackonthe.net</a></div>
 				</div>
