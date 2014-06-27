@@ -21,6 +21,9 @@ header.mainHeader{
 	background-position:static;
 
 }
+.buttons-inline{
+	display:inline-block;
+}
 .findMe{
 	color:#fff;
 	margin-top:20px;
