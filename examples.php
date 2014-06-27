@@ -516,6 +516,64 @@
 				</div>
 				<div class='col-md-2'><div class='repeat animated lightSpeedInLeft'></div></div>
 			</div>
+
+			<div class='animatedParent'>
+				<hr class='animated fadeIn slow' />
+			</div>
+			
+			<!-- flip -->
+			<div class='animatedParent row article'>
+			
+				<div class='col-md-4'>
+					
+					<h3 class='animated bounceInUp padded'>flip</h3>
+				</div>
+				<div class='animatedParent col-md-6'>
+<pre class='animated growIn slow'>
+<?php echo htmlspecialchars("<h2 class='animated "); ?><span class='highlighter'><?php echo htmlspecialchars("flip"); ?></span><?php echo htmlspecialchars("'>It Works!</h2>"); ?>
+</pre>
+				</div>
+				<div class='col-md-2'><div class='repeat animated flip'></div></div>
+			</div>
+
+			<div class='animatedParent'>
+				<hr class='animated fadeIn slow' />
+			</div>
+			
+			<!-- flipInX -->
+			<div class='animatedParent row article'>
+			
+				<div class='col-md-4'>
+					
+					<h3 class='animated bounceInUp padded'>flipInX</h3>
+				</div>
+				<div class='animatedParent col-md-6'>
+<pre class='animated growIn slow'>
+<?php echo htmlspecialchars("<h2 class='animated "); ?><span class='highlighter'><?php echo htmlspecialchars("flipInX"); ?></span><?php echo htmlspecialchars("'>It Works!</h2>"); ?>
+</pre>
+				</div>
+				<div class='col-md-2'><div class='repeat animated flipInX slowest'></div></div>
+			</div>
+
+			<div class='animatedParent'>
+				<hr class='animated fadeIn slow' />
+			</div>
+			
+			<!-- flipInY -->
+			<div class='animatedParent row article'>
+			
+				<div class='col-md-4'>
+					
+					<h3 class='animated bounceInUp padded'>flipInY</h3>
+				</div>
+				<div class='animatedParent col-md-6'>
+<pre class='animated growIn slow'>
+<?php echo htmlspecialchars("<h2 class='animated "); ?><span class='highlighter'><?php echo htmlspecialchars("flipInY"); ?></span><?php echo htmlspecialchars("'>It Works!</h2>"); ?>
+</pre>
+				</div>
+				<div class='col-md-2'><div class='repeat animated flipInY slowest'></div></div>
+			</div>
+
 			
 			
 
