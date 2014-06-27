@@ -400,8 +400,6 @@ $(document.body).on('appear', '.animatedParent', function(e, $affected){
 	var ele = $(this).find('.animated');
 	var parent = $(this);
 	console.log($(this));
-	
-	//var parent = $(".animatedParent[sequence-id="+parentId+"]");
 
 	if(parent.attr('data-sequence') != undefined){
 		
@@ -422,10 +420,6 @@ $(document.body).on('appear', '.animatedParent', function(e, $affected){
 		ele.addClass('go');
 	}
 	
-
-	/*var id = Math.floor(Math.random()*9999)+1
-	$(this).children('.animated').attr('data-id', id);*/
-	
 });
 
  $(document.body).on('disappear', '.animatedParent', function(e, $affected) {
@@ -437,11 +431,3 @@ $(document.body).on('appear', '.animatedParent', function(e, $affected){
  $(window).load(function(){
  	$.force_appear();
  });
-/*$('.jumbotron .text-col h1, .jumbotron .text-col p, .jumbotron .fadeIn').css({
-	'opacity':'100',
-	'-webkit-transform':'translateX(0)',
-	'transform':'translateX(0)',
-	'-webkit-transform':'translateY(0)',
-	'transform':'translateY(0)',
-});*/
-
