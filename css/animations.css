@@ -1,0 +1,314 @@
+/*animations*/
+
+/******************
+* Bounce in right *
+*******************/
+
+
+.animated { 
+    -webkit-animation-duration: 1s; 
+    animation-duration: 1s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+} 
+.slow{
+	 -webkit-animation-duration: 1.5s; 
+    animation-duration: 1.5s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+}
+.slower{
+	 -webkit-animation-duration: 2s; 
+    animation-duration: 2s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+}
+.slowest{
+	 -webkit-animation-duration: 3s; 
+    animation-duration: 3s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+}
+
+.bounceInRight, .bounceInLeft, .bounceInUp, .bounceInDown{
+	opacity:0;
+	-webkit-transform: translateX(400px); 
+    transform: translateX(400px); 
+}
+
+@-webkit-keyframes bounceInRight { 
+    0% { 
+        opacity: 0; 
+        display:none;
+        -webkit-transform: translateX(400px); 
+    } 
+    60% { 
+        
+        -webkit-transform: translateX(-30px); 
+    } 
+    80% { 
+        -webkit-transform: translateX(10px); 
+    } 
+    100% {
+    opacity: 1;
+    display:block;  
+        -webkit-transform: translateX(0); 
+    } 
+} 
+
+@keyframes bounceInRight { 
+    0% { 
+        opacity: 0; 
+        display:none;
+        transform: translateX(400px); 
+    } 
+    60% { 
+        
+        transform: translateX(-30px); 
+    } 
+    80% { 
+        transform: translateX(10px); 
+    } 
+    100% {
+    opacity: 1;
+    display:block;  
+        transform: translateX(0); 
+    } 
+} 
+
+
+.bounceInRight.go { 
+    -webkit-animation-name: bounceInRight; 
+    animation-name: bounceInRight; 
+}
+
+/******************
+* Bounce in left *
+*******************/
+
+@-webkit-keyframes bounceInLeft { 
+    0% { 
+        opacity: 0; 
+        display:none;
+        -webkit-transform: translateX(-400px); 
+    } 
+    60% { 
+       
+        -webkit-transform: translateX(30px); 
+    } 
+    80% { 
+        -webkit-transform: translateX(-10px); 
+    } 
+    100% {
+     	opacity: 1;
+        display:block;  
+        -webkit-transform: translateX(0); 
+    } 
+} 
+
+@keyframes bounceInLeft { 
+    0% { 
+        opacity: 0; 
+        display:none;
+        transform: translateX(-400px); 
+    } 
+    60% { 
+       
+        transform: translateX(30px); 
+    } 
+    80% { 
+        transform: translateX(-10px); 
+    } 
+    100% {
+     	opacity: 1;
+        display:block;  
+        transform: translateX(0); 
+    } 
+} 
+
+.bounceInLeft.go { 
+    -webkit-animation-name: bounceInLeft; 
+    animation-name: bounceInLeft; 
+}
+
+/******************
+* Bounce in up *
+*******************/
+
+@-webkit-keyframes bounceInUp { 
+    0% { 
+        opacity: 0; 
+        display:none;
+        -webkit-transform: translateY(400px); 
+    } 
+    60% { 
+       
+        -webkit-transform: translateY(-30px); 
+    } 
+    80% { 
+        -webkit-transform: translateY(10px); 
+    } 
+    100% {
+     	opacity: 1;
+        display:block;  
+        -webkit-transform: translateY(0); 
+    } 
+} 
+
+@keyframes bounceInUp { 
+    0% { 
+        opacity: 0; 
+        display:none;
+        transform: translateY(400px); 
+    } 
+    60% { 
+       
+        transform: translateY(-30px); 
+    } 
+    80% { 
+        transform: translateY(10px); 
+    } 
+    100% {
+     	opacity: 1;
+        display:block;  
+        transform: translateY(0); 
+    } 
+} 
+
+.bounceInUp.go { 
+    -webkit-animation-name: bounceInUp; 
+    animation-name: bounceInUp; 
+}
+
+
+/******************
+* Bounce in down *
+*******************/
+
+@-webkit-keyframes bounceInDown { 
+    0% { 
+        opacity: 0; 
+        display:none;
+        -webkit-transform: translateY(-400px); 
+    } 
+    60% { 
+       
+        -webkit-transform: translateY(30px); 
+    } 
+    80% { 
+        -webkit-transform: translateY(-10px); 
+    } 
+    100% {
+     	opacity: 1;
+        display:block;  
+        -webkit-transform: translateY(0); 
+    } 
+} 
+
+@keyframes bounceInDown { 
+    0% { 
+        opacity: 0; 
+        display:none;
+        transform: translateY(-400px); 
+    } 
+    60% { 
+       
+        transform: translateY(30px); 
+    } 
+    80% { 
+        transform: translateY(-10px); 
+    } 
+    100% {
+     	opacity: 1;
+        display:block;  
+        transform: translateY(0); 
+    } 
+} 
+
+.bounceInDown.go { 
+    -webkit-animation-name: bounceInDown; 
+    animation-name: bounceInDown; 
+}
+
+
+/**********
+* Fade In *
+**********/ 
+@-webkit-keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;
+        display:block;} 
+} 
+@keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;
+        display:block;} 
+}
+.fadeIn{
+	opacity:0;
+}
+.fadeIn.go { 
+    -webkit-animation-name: fadeIn; 
+    animation-name: fadeIn; 
+}
+
+/**********
+* Grow in *
+***********/
+
+@-webkit-keyframes growIn { 
+    0% { 
+    	-webkit-transform: scale(0.2); 
+    	opacity:0;
+    } 
+    50% { 
+    	-webkit-transform: scale(1.2); 
+    	
+    } 
+    100% { 
+    	-webkit-transform: scale(1); 
+    	opacity:1;
+    } 
+} 
+@keyframes growIn { 
+    0% { 
+    	transform: scale(0.2); 
+    	opacity:0;
+    } 
+    50% { 
+    	transform: scale(1.2); 
+    	
+    } 
+    100% { 
+    	transform: scale(1); 
+    	opacity:1;
+    } 
+} 
+.growIn { 
+
+    -webkit-transform: scale(0.2);
+    transform: scale(0.2);
+    opacity:0;
+}
+.growIn.go{
+	-webkit-animation-name: growIn; 
+    animation-name: growIn; 
+}
+
+/********
+* Shake *
+********/
+@-webkit-keyframes shake { 
+    0%, 100% {-webkit-transform: translateX(0);} 
+    10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-10px);} 
+    20%, 40%, 60%, 80% {-webkit-transform: translateX(10px);} 
+} 
+@keyframes shake { 
+    0%, 100% {transform: translateX(0);} 
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);} 
+    20%, 40%, 60%, 80% {transform: translateX(10px);} 
+} 
+.shake.go { 
+    -webkit-animation-name: shake; 
+    animation-name: shake; 
+}
