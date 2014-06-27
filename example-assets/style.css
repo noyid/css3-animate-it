@@ -93,6 +93,9 @@ h3{
 	margin-top:0px;
 	margin-left:15px;
 }
+.blog_content a{
+	text-decoration: underline;
+}
 footer{
 	background: #2c3e50;
 	padding: 20px 0;
