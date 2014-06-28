@@ -4,10 +4,11 @@
   "description": "CSS3/jQuery plugin to animate elements as they come into view",
   "keywords": [
     "jquery",
-    "boilerplate",
-    "plugins"
+    "css3",
+    "plugins",
+    "animate"
   ],
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": {
     "name": "Jack McCourt",
     "url": "https://github.com/Jack-McCourt/css3-animate-it"
