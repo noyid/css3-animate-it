@@ -35,6 +35,11 @@
 	-webkit-transform: translateX(400px); 
     transform: translateX(400px); 
 }
+.fadeInRight, .fadeInLeft, .fadeInUp, .fadeInDown{
+    opacity:0;
+    -webkit-transform: translateX(400px); 
+    transform: translateX(400px); 
+}
 
 
 /***********
