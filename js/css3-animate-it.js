@@ -399,7 +399,6 @@ $('.animatedParent').appear();
 $(document.body).on('appear', '.animatedParent', function(e, $affected){
 	var ele = $(this).find('.animated');
 	var parent = $(this);
-	console.log($(this));
 
 	if(parent.attr('data-sequence') != undefined){
 		
@@ -410,7 +409,7 @@ $(document.body).on('appear', '.animatedParent', function(e, $affected){
 		$(parent).find(".animated[data-id="+ number +"]").addClass('go');
 		number ++;
 		delay = Number(parent.attr('data-sequence'));
-		//console.log(parentId);
+
 		$.doTimeout(delay, function(){
 			$(parent).find(".animated[data-id="+ number +"]").addClass('go');
 			++number;
