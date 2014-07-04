@@ -45,7 +45,7 @@
     opacity:0;
 }
 
-.lightSpeedInRight. .lightSpeedInLeft{
+.lightSpeedInRight, .lightSpeedInLeft{
     opacity:0;
     -webkit-transform: translateX(400px); 
     transform: translateX(400px); 
