@@ -393,6 +393,7 @@
 
 
 
+
 //CSS3 Animate-it
 $('.animatedParent').appear();
 $('.animatedClick').click(function(){
@@ -403,13 +404,33 @@ $('.animatedClick').click(function(){
     var firstId = $("."+target+":first").attr('data-id');
     var lastId = $("."+target+":last").attr('data-id');
     var number = firstId;
-    $("."+target+"[data-id="+ number +"]").addClass('go');
+
+    //Add or remove the class
+    if($("."+target+"[data-id="+ number +"]").hasClass('go')){
+      $("."+target+"[data-id="+ number +"]").addClass('goAway');
+      $("."+target+"[data-id="+ number +"]").removeClass('go');
+    }else{
+      $("."+target+"[data-id="+ number +"]").addClass('go');
+      $("."+target+"[data-id="+ number +"]").removeClass('goAway');
+    }
     number ++;
     delay = Number($(this).attr('data-sequence'));
     $.doTimeout(delay, function(){
       console.log(lastId);
-      $("."+target+"[data-id="+ number +"]").addClass('go');
+      
+      //Add or remove the class
+      if($("."+target+"[data-id="+ number +"]").hasClass('go')){
+        $("."+target+"[data-id="+ number +"]").addClass('goAway');
+        $("."+target+"[data-id="+ number +"]").removeClass('go');
+      }else{
+        $("."+target+"[data-id="+ number +"]").addClass('go');
+        $("."+target+"[data-id="+ number +"]").removeClass('goAway');
+      }
+
+      //increment
       ++number;
+
+      //continute looping till reached last ID
       if(number <= lastId){return true;}
     });
   }else{
